@@ -1,6 +1,6 @@
 import cmath
 
-z = complex(input())
+z = complex(input("Enter ...>>>"))
 
 r, phi = cmath.polar(z)
 print(r)
