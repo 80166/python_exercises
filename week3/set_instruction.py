@@ -1,0 +1,6 @@
+eng = int(input())
+e_roll = set(list(input().split()))
+french = int(input())
+f_roll = set(list(input().split()))
+merge_roll = e_roll.intersection(f_roll)
+print(len(merge_roll))
