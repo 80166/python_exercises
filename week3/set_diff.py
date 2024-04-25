@@ -1,0 +1,6 @@
+eng = int(input())
+e_roll = set(list(input().split()))
+french = int(input())
+f_roll = set(list(input().split()))
+eng_student = e_roll.difference(f_roll)
+print(len(eng_student))
